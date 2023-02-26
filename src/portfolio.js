@@ -218,7 +218,7 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/ercLogo.webp"),
+      image: require("./assets/images/ercLogo.png"),
       projectName: "European Rover Challenge 2022 - Remote Formula, Team SHUNYA",
       projectDesc: "Developed Navigation Stack for Leo Rover using ROS. Worked on Sensor Fusion",
       footerLink: [
