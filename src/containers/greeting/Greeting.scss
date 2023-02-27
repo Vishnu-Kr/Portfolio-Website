@@ -50,14 +50,6 @@
   height: auto;
 }
 
-.greeting-text-div-dp {
-  object-fit: cover;
-  margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
-  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
-}
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -98,12 +90,6 @@
   .greeting-text-p {
     font-size: 20px;
   }
-  .greeting-text-div-dp {
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0px;
-  }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
@@ -123,13 +109,6 @@
   }
   .greeting-image-div {
     height: 256px;
-  }
-  .greeting-text-div-dp {
-    margin-top: 10px;
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 1rem;
-    margin-right: 0;
   }
 }
 

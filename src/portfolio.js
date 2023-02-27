@@ -21,7 +21,6 @@ const illustration = {
 
 const greeting = {
   username: "Vishnu Kumar",
-  logo: require("./assets/images/vishnu.jpeg"),
   title: "Hi all, I'm Vishnu",
   subTitle: emoji(
     "A passionate Robotics Software Developer 🚀 having an experience of building software for Manipulators and Mobile Robots with Robot Operating System(ROS) / C++ / Python and some other cool libraries and frameworks."
