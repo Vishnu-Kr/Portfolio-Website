@@ -20,6 +20,14 @@ export default function Greeting() {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
+            <div className="greeting-image-div-dp">
+            {
+              <img
+                alt="man sitting on table"
+                src={require("../../assets/images/vishnu.jpeg")}
+              ></img>
+            }
+            </div>
             <div>
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
