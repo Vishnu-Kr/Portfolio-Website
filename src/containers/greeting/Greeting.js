@@ -1,4 +1,4 @@
-import React, {createRef,useContext} from "react";
+import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
@@ -12,7 +12,6 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
-  const imgRef = createRef();
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -21,18 +20,13 @@ export default function Greeting() {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
-            {logo && (
-            <div className="greeting-text-div-dp">
+            <div className="greeting-image-div-dp">
+            {
               <img
-                crossOrigin={"anonymous"}
-                ref={imgRef}
-                className="greeting-text-div-dp"
-                src={logo}
-                alt={username}
-              />
-            </div>
-          )}
+                alt="man sitting on table"
+                src={require("../../assets/images/vishnu.jpeg")}
+              ></img>
+            }
             </div>
             <div>
               <h1
