@@ -185,8 +185,7 @@ const workExperiences = {
       date: "May 2022 – Feb 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Implemented Sensor Fusion, Odometry Optimization and techniques to map the environment, avoid obstacles and plan a path, leading to autonomous navigation of a UGV.",
-        "Currently involved in the development of software for an Autonomous Unmanned Ground Vehicle (UGV) equipped with a robotic manipulator, with the aim of participating in competitions under the Rover Challenge Series held internationally."
+        "Led the team of 35+ students from various departments to compete in rover challenges.",
       ]
     },
     {
@@ -279,7 +278,7 @@ const achievementSection = {
       title: "ERC Remote Finalist",
       subtitle:
         "Ranked 2nd worldwide in Qualification A round ",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/ercLogo.png"),
       imageAlt: "European Rover Challenge",
       footerLink: [
         {
