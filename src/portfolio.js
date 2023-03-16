@@ -282,7 +282,7 @@ const bigProjects = {
           // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
         }
       ]
-    },,
+    },
     {
       image: require("./assets/images/electronics.jpeg"),
       projectName: "Auto Expandable Container",
