@@ -65,37 +65,37 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "ROS",
-      fontAwesomeClassname: "fab fa-ros"
+      fontAwesomeClassname: "fab fa-robot"
     },
     {
-      skillName: "C",
-      fontAwesomeClassname: "fab fa-c"
+      skillName: "C/C++",
+      fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
-    // {
-    //   skillName: "nodejs",
-    //   fontAwesomeClassname: "fab fa-node"
-    // },
+    {
+      skillName: "Microsoft Office",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
     // {
     //   skillName: "swift",
     //   fontAwesomeClassname: "fab fa-swift"
     // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
+    {
+      skillName: "Matlab",
+      fontAwesomeClassname: "fab fa-matlab"
+    },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -104,10 +104,10 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
     // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fas fa-linux"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -185,7 +185,7 @@ const workExperiences = {
       date: "May 2022 – Feb 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Led the team of 35+ students from various departments to compete in rover challenges.",
+        "Led a successful team in international robotics competitions, including reaching the finals of the European Rover Challenge Remote 2022 and qualifying for the SAR Round of the University Rover Challenge 2023.",
       ]
     },
     {
@@ -195,7 +195,8 @@ const workExperiences = {
       date: "August 2021 – Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Implemented Sensor Fusion, Odometry Optimization and techniques to map the environment, avoid obstacles and plan a path, leading to autonomous navigation of a UGV.",
+        "Implemented Sensor Fusion, Odometry Optimization, Mapping, Path Planning and Autonomy.",
+        "Used packages like MoveIt, SLAM, AMCL, MoveBase, EKF(Extended Kalman filter), OpenCV and many more.",
         "Currently involved in the development of software for an Autonomous Unmanned Ground Vehicle (UGV) equipped with a robotic manipulator, with the aim of participating in competitions under the Rover Challenge Series held internationally."
       ]
     }
@@ -273,7 +274,7 @@ const bigProjects = {
       ]
     },,
     {
-      image: require("./assets/images/leo.jpeg"),
+      image: require("./assets/images/electronic.jpeg"),
       projectName: "Auto Expandable Container",
       // projectDesc: "Robot_localization package used for localization along with RTABMapping using ZED 2i",
       footerLink: [
@@ -284,9 +285,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/leo.jpeg"),
+      image: require("./assets/images/entryexit.png"),
       projectName: "EntryTrack",
-      projectDesc: "TThe project automates entry logging of students and staffs with a web interface, MySQL database and query system. Designed for educational institutions or businesses, it improves security and simplifies attendance tracking.",
+      projectDesc: "The project automates entry logging of students and staffs with a web interface, MySQL database and query system. Designed for educational institutions or businesses, it improves security and simplifies attendance tracking.",
       footerLink: [
         {
           // name: "Youtube",
@@ -294,8 +295,19 @@ const bigProjects = {
         }
       ]
     },
+    // {
+    //   image: require("./assets/images/entryexit.png"),
+    //   projectName: "Ad Blocker Extension",
+    //   projectDesc: "The project automates entry logging of students and staffs with a web interface, MySQL database and query system. Designed for educational institutions or businesses, it improves security and simplifies attendance tracking.",
+    //   footerLink: [
+    //     {
+    //       // name: "Youtube",
+    //       // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+    //     }
+    //   ]
+    // },
     {
-      image: require("./assets/images/leo.jpeg"),
+      image: require("./assets/images/house.jpeg"),
       projectName: "HousePredict",
       projectDesc: "The project uses machine learning to predict house prices based on location, size, rooms, and amenities. Trained on historical data and evaluated using performance metrics, the model aims to provide accurate price predictions for buying or selling decisions.",
       footerLink: [
