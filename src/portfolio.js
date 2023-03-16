@@ -188,6 +188,16 @@ const workExperiences = {
         "Led a successful team in international robotics competitions, including reaching the finals of the European Rover Challenge Remote 2022 and qualifying for the SAR Round of the University Rover Challenge 2023.",
       ]
     },
+    // {
+    //   role: "Core",
+    //   company: "Social Service Group",
+    //   companylogo: require("./assets/images/ssg.png"),
+    //   date: "May 2022 – Feb 2023",
+    //   // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    //   descBullets: [
+    //     "Led a successful team in international robotics competitions, including reaching the finals of the European Rover Challenge Remote 2022 and qualifying for the SAR Round of the University Rover Challenge 2023.",
+    //   ]
+    // },
     {
       role: "Robotics Software Engineer",
       company: "Mars Research Station",
@@ -274,7 +284,7 @@ const bigProjects = {
       ]
     },,
     {
-      image: require("./assets/images/electronic.jpeg"),
+      image: require("./assets/images/electronics.jpeg"),
       projectName: "Auto Expandable Container",
       // projectDesc: "Robot_localization package used for localization along with RTABMapping using ZED 2i",
       footerLink: [
