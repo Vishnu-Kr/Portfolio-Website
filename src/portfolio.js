@@ -256,12 +256,57 @@ const bigProjects = {
       projectDesc: "Robot_localization package used for localization along with RTABMapping using ZED 2i",
       footerLink: [
         {
-          name: "Youtube",
-          url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+          // name: "Youtube",
+          // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/leo.jpeg"),
+      projectName: "Odometry Fusion",
+      // projectDesc: "Robot_localization package used for localization along with RTABMapping using ZED 2i",
+      footerLink: [
+        {
+          // name: "Youtube",
+          // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+        }
+      ]
+    },,
+    {
+      image: require("./assets/images/leo.jpeg"),
+      projectName: "Auto Expandable Container",
+      // projectDesc: "Robot_localization package used for localization along with RTABMapping using ZED 2i",
+      footerLink: [
+        {
+          // name: "Youtube",
+          // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/leo.jpeg"),
+      projectName: "EntryTrack",
+      projectDesc: "TThe project automates entry logging of students and staffs with a web interface, MySQL database and query system. Designed for educational institutions or businesses, it improves security and simplifies attendance tracking.",
+      footerLink: [
+        {
+          // name: "Youtube",
+          // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/leo.jpeg"),
+      projectName: "HousePredict",
+      projectDesc: "The project uses machine learning to predict house prices based on location, size, rooms, and amenities. Trained on historical data and evaluated using performance metrics, the model aims to provide accurate price predictions for buying or selling decisions.",
+      footerLink: [
+        {
+          // name: "Youtube",
+          // url: "https://www.youtube.com/watch?v=4AaZlb4nLxw"
         }
       ]
     }
   ],
+  
   display: true // Set false to hide this section, defaults to true
 };
 
